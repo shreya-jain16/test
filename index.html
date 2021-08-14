@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt</title>
+</head>
+<style>
+    .outer .heading h1{
+        text-align: center;
+    }
+
+    .box{
+        background-color: aqua;
+        height: 600px;
+        width: 30%;
+        margin-left: 1em;
+    }
+
+    .outer .top{
+        background-color: rgb(25, 156, 25);
+        margin-right: 1em;
+        right: 1em;
+    }
+
+    .outer #b2{
+        left: 0;
+    }
+
+    .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text{
+        background-color: white;
+        text-align: center;
+        width: 30%;
+    }
+
+    .sbox{
+        height: 50%;
+    }
+
+    #sbox1,#sbox2{
+        width: 50%;
+        border: 1em solid orange;
+    }
+
+    #sbox3{
+        width: 100%;
+        border: 1em solid orange;
+    }
+
+</style>
+<body>
+    <div class="outer">
+
+        <div class="heading" id="h1">
+            <h1>Final Assesment - Name </h1>
+        </div>
+
+        <div class="row">
+
+        <div class="box" id="b2">
+           <div class="row">
+        <div class="sbox" id="sbox1"></div>
+        <div class="sbox" id="sbox2"></div>
+    </div>
+        </div>
+        <div class="row">
+        <div class="sbox" id="sbox3"></div>
+    </div>
+
+        <div class="box" id="b3">
+            
+            <div class="sbox" id="sbox4"></div>
+        </div>
+        
+
+        <div class="box" id="b4"></div>
+        
+
+        </div>
+
+        <div class="row">
+            <div class="text"><p>Box 2</p></div>
+
+            <div class="text"><p>Box 1</p></div>
+
+            <div class="text"><p>Box 3</p></div>
+
+        </div>
+
+        <div class="top" id="t1">Go to Top</div>
+
+    </div>
+    
+</body>
+</html>
